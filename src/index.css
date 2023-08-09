@@ -11,3 +11,206 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Tut1 start css*/
+
+.back-body{
+  background-color: antiquewhite;
+  
+  width: 100%;
+  min-height: 923px;
+}
+.box{
+  margin: auto;
+  width: min(100% - 1.5em, 550px);
+
+  margin-top: 10%;
+  background-image: linear-gradient(to right top, #1960c9, #3d62d8, #5c62e6, #7a60f2, #995bfb);
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+nav{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back{
+  background: white;
+    padding: 0.5em;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms;
+    width: 30px;
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+.setting
+{
+  color:white;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+span
+{
+  font-size: 0.9rem;
+}
+.setting svg{
+  cursor: pointer;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+    
+
+h2{
+  font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    margin-top: 0.75em;
+    
+    
+}
+
+.inp{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+    background: #2b2c4a;
+    border: #5a5b79 solid 0.5px;
+    border-radius: 2em;
+    padding: 0.5em;
+    overflow: auto;
+    margin-block: 1.25em;
+}
+.inp .people {
+  display: flex;
+  align-items: center;
+  padding: 0.3em 0.75em 0.3em 0.3em;
+  gap: 0.5em;
+  color: white;
+  font-weight: 400;
+  font-size: 0.95rem;
+  background: #41426e;
+  border: #5a5b79 solid 0.5px;
+  border-radius: 2em;
+  width: max-content;
+}
+.people img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.inp .add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #41426e;
+  border: #5a5b79 solid 0.5px;
+  border-radius: 50%;
+  padding: 0.5em 1em;
+  width: max-content;
+  color: white;
+  font-weight: 500;
+}
+.input-check{
+  
+  position: absolute;
+  margin-left: 10px;
+  
+
+}
+.TT{
+  color: white;
+  font-size: 0.85rem;
+}
+.footer{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-name{
+ 
+  padding: 0.5em;
+ 
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+  
+  margin: 20px;
+}
+.ss{
+color: white;
+text-decoration: underline;
+cursor: pointer;
+}
+.btn .btn1
+{
+  background-color: white;
+  border: solid 0.5px transparent;
+    border-radius: 0.25em;
+    outline: none;
+    padding: 0.75em 2em;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn .btn2
+{
+  background-color: white;
+
+  border: solid 0.5px transparent;
+    border-radius: 0.25em;
+    outline: none;
+    padding: 0.75em 2em;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+/* End css Tut1 */
