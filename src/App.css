@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.coma{
+  background-color: aqua;
+  padding: 5px;
+  margin: 8px;
+}
+.comb{
+  background-color:chartreuse;
+  padding: 5px;
+  margin: 8px;
+}
+.comc{
+  background-color:coral;
+  padding: 5px;
+  margin: 8px;
+}
